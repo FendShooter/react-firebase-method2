@@ -1,0 +1,42 @@
+*, *::after, *::before{
+margin:0;
+padding:0;
+box-sizing:inherit
+}
+html{
+box-sizing:border-box;
+font-size: 62.5%
+}
+body{
+height:100%;
+}
+
+
+header{
+  background: #000;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+
+}
+nav{
+width: 50rem;
+margin: 0 auto ;
+}
+
+a{
+  font-size: 2rem;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+  text-decoration: none;
+  transition: all 500ms;
+}
+.isActive{
+  font-size: 2rem;
+  font-weight: bold;
+  color: pink;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 6px;
+}
